@@ -16,8 +16,8 @@ jobs:
             dotnet-version: 6.x
 
         # Run tests Testプロジェクトがない場合はコメントアウトが必要
-        - name: Test
-          run: dotnet test
+        #- name: Test
+        #  run: dotnet test
 
         # Generate the website
         - name: Publish
